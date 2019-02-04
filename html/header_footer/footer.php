@@ -1,5 +1,5 @@
 <!-- Footer -->
-<div id="googleMap" style="width:100%;height:400px;"></div>
+
 <hr style="height:3px;border:none;color:#333;background-color:#333;">
 <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
 	<div class="col-sm-8">
@@ -47,19 +47,8 @@
 	</div>
 	
 </footer>
-<hr style="height:3px;border:none;color:#333;background-color:#333;">
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
-</body>
+
 </body>
 </html>
