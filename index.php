@@ -1,5 +1,5 @@
 <?php
- //include "http://localhost/k2_project/html/header_footer/header.php";
+ ///include "http://localhost/k2_project/html/header_footer/header.php";
  require_once('html/header_footer/header.php');
 ?>
 
