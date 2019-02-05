@@ -1,78 +1,104 @@
-
-
 <?php
- ///include "http://localhost/k2_project/html/header_footer/header.php";
- require_once('../html/header_footer/header.php');
+///include "http://localhost/k2_project/html/header_footer/header.php";
+require_once('../header_footer/header.php');
 ?>
-
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('http://localhost/k2_project/assets/image/Website-design-1.png');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
+.w3-bar-block .w3-bar-item {padding:20px}
 </style>
-
-<div class="bgimg">
-    div with background
-</div>
-
-
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-right" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animatew3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity-opacity">
-   <div class="w3-row">
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px;margin-top:200px;"  width="1600" height="600" id="home">
+  <img class="w3-image" src="../../assets/image/Website-design-20.png" style="width: 100%;" alt="Hamburger Catering">
+  <div class="w3-display-middle w3-center w3-text-black w3-white w3-grayscale-max w3-opacity-min">
+    <h1>Rentings a Property</h1>
+    <p class="w3-hide">Just Lets</p>
+    
+    <p class="w3-large w3-text-black w3-hide-small w3-text-white ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,</p>
+    <button class="w3-btn w3-black">More Info >></button>
+  </div>
+</header>
+<hr>
+<div class="w3-row-padding">
   
-</div>
-<div class="w3-row">
-   
-</div>
-<div class="w3-row">
-  
-</div>
-<div class="w3-row">
-   
-</div>
-    </span>
+  <div class="w3-col m3">
+    <label><i class="fa fa-calendar-o"></i> Area</label>
+    <input class="w3-input w3-border" type="text" placeholder="Any">
+  </div>
+  <div class="w3-col m3">
+    <label><i class="fa fa-male"></i> Maximum Bedrooms</label>
+    <input class="w3-input w3-border" type="number" placeholder="Any">
+  </div>
+  <div class="w3-col m3">
+    <label><i class="fa fa-child"></i> Maximum Price</label>
+    <input class="w3-input w3-border" type="number" placeholder="Any">
+  </div>
+  <div class="w3-col m3">
+    <label><i class="fa fa-search"></i> Search</label>
+    <button class="w3-button w3-block w3-black">Search</button>
   </div>
 </div>
+<hr>
+<!-- About Section -->
+<!-- !PAGE CONTENT! -->
+<div class="w3-main  w3-content w3-padding" style="max-width:90%;margin-top:100px">
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center"  id="food">
+    <div class="w3-third " style="background-color: rgb(133, 123, 109);">
+      <img src="../../assets/image/Website-design-20.png" alt="Sandwich" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+    
+    <div class="w3-third"  style="background-color: rgb(133, 133, 109);">
+      <img src="../../assets/image/Website-design-20.png" alt="Cherries" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+    <div class="w3-third"  style="background-color: rgb(133,123, 109);">
+      <img src="../../assets/image/Website-design-20.png" alt="Pasta and Wine" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+  </div>
+  <hr>
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" style="background-color: rgb(133, 116, 102);" id="food">
+    <div class="w3-third">
+      <img src="../../assets/image/Website-design-20.png" alt="Sandwich" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+    
+    <div class="w3-third"  style="background-color: rgb(133, 100, 119);">
+      <img src="../../assets/image/Website-design-20.png" alt="Cherries" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+    <div class="w3-third"  style="background-color: rgb(133, 123, 109);">
+      <img src="../../assets/image/Website-design-20.png" alt="Pasta and Wine" style="width:100%">
+      <h3>CHELSEA SQUARE SW3</h3>
+      <p class="w3-wide">£15,000 PER WEEK </p>
+      <b class="w3-bold">3 BEDS | 3 BATHS | 2 RECEPTIONS
+      </b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dui finibus, bibendum erat at, tempus diam. Vestibulum quis lorem ac lacus bibendum consectetur. In ac nunc interdum, molestie ante eget, lacinia magna. Nullam suscipit, ligula at sagittis maximus, mauris augue sagittis tellus, sit amet viverra augue lacus id nunc. Ut cursus odio sed metus egestas, </p>
+    </div>
+  </div>
+</div>
+<?php
+//include "http://localhost/k2_project/html/header_footer/header.php";
+require_once('../header_footer/footer.php');
+?>
