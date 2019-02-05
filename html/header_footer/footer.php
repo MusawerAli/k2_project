@@ -1,9 +1,9 @@
 <!-- Footer -->
 <hr style="height:3px;border:none;color:#333;background-color:#333;">
 <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-	<div class="col-sm-8">
+	<div class="">
 		<div class="w3-row">
-			<div class="w3-col m2  w3-center">
+			<div class="w3-col m1  w3-center">
 				<h5>Home</h5>
 				
 			</div>
@@ -16,14 +16,14 @@
 				
 				<p><a href="#">Help</a></p>
 			</div>
-			<div class="w3-col m2  w3-center">
+			<div class="w3-col m1  w3-center">
 				<h5>Properties</h5>
 				
 				<p><a href="#">For Sales</a></p>
 				<p><a href="#">To lits</a></p>
 				
 			</div>
-			<div class="w3-col m2  w3-center">
+			<div class="w3-col m1  w3-center">
 				
 				<h5>About Us</h5>
 				<p><a href="#">Our Teams</a></p>
@@ -34,9 +34,17 @@
 				<p><a href="#">Contact</a></p>
 				<p><a href="#">Location</a></p>
 			</div>
-			<div class="w3-col m2 w3-purple w3-center">
-				
+			<div class="w3-col m4  w3-center">
+				<p style="font-size: 22px"><b class="w3-wide">Ennismore Estates </b>
+				412 Edgware Road London W2 1ED </p>
+				<p class="w3-wide" style="font-size: 20px"> Telephone:  0203 456 7893  </p>
+				<p class="w3-wide" style="font-size: 20px"> email: info@ennismoreestates.com
+</p>
 			</div>
+			
+		</div>
+		<div class="w3-row">
+			
 		</div>
 		
 	</div>
